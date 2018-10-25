@@ -10,6 +10,15 @@
 		2589535B218147AA00A0E67E /* Coeur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25895351218147AA00A0E67E /* Coeur.framework */; };
 		25895360218147AA00A0E67E /* CoeurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589535F218147AA00A0E67E /* CoeurTests.swift */; };
 		25895362218147AA00A0E67E /* Coeur.h in Headers */ = {isa = PBXBuildFile; fileRef = 25895354218147AA00A0E67E /* Coeur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2589536D218147D200A0E67E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589536C218147D200A0E67E /* UIView.swift */; };
+		2589536F218147F700A0E67E /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589536E218147F700A0E67E /* UIColor+Hex.swift */; };
+		258953712181481900A0E67E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258953702181481900A0E67E /* UIButton.swift */; };
+		258953732181484D00A0E67E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258953722181484D00A0E67E /* UIImage.swift */; };
+		258953752181487D00A0E67E /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258953742181487D00A0E67E /* UINavigationBar.swift */; };
+		258953772181489E00A0E67E /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258953762181489E00A0E67E /* UITabBar.swift */; };
+		25895379218148BF00A0E67E /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25895378218148BF00A0E67E /* UITableView.swift */; };
+		2589537B218148F100A0E67E /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537A218148F100A0E67E /* UITextField.swift */; };
+		2589537E2181491800A0E67E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537D2181491800A0E67E /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		2589535A218147AA00A0E67E /* CoeurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoeurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2589535F218147AA00A0E67E /* CoeurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoeurTests.swift; sourceTree = "<group>"; };
 		25895361218147AA00A0E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2589536C218147D200A0E67E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		2589536E218147F700A0E67E /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		258953702181481900A0E67E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		258953722181484D00A0E67E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		258953742181487D00A0E67E /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		258953762181489E00A0E67E /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		25895378218148BF00A0E67E /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		2589537A218148F100A0E67E /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		2589537D2181491800A0E67E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,8 @@
 		25895353218147AA00A0E67E /* Coeur */ = {
 			isa = PBXGroup;
 			children = (
+				2589537C2181490D00A0E67E /* Alert */,
+				2589536B218147B500A0E67E /* Boilerplate */,
 				25895354218147AA00A0E67E /* Coeur.h */,
 				25895355218147AA00A0E67E /* Info.plist */,
 			);
@@ -84,6 +104,29 @@
 				25895361218147AA00A0E67E /* Info.plist */,
 			);
 			path = CoeurTests;
+			sourceTree = "<group>";
+		};
+		2589536B218147B500A0E67E /* Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				2589536C218147D200A0E67E /* UIView.swift */,
+				2589536E218147F700A0E67E /* UIColor+Hex.swift */,
+				258953702181481900A0E67E /* UIButton.swift */,
+				258953722181484D00A0E67E /* UIImage.swift */,
+				258953742181487D00A0E67E /* UINavigationBar.swift */,
+				258953762181489E00A0E67E /* UITabBar.swift */,
+				25895378218148BF00A0E67E /* UITableView.swift */,
+				2589537A218148F100A0E67E /* UITextField.swift */,
+			);
+			path = Boilerplate;
+			sourceTree = "<group>";
+		};
+		2589537C2181490D00A0E67E /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				2589537D2181491800A0E67E /* Alert.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +191,7 @@
 				TargetAttributes = {
 					25895350218147AA00A0E67E = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					25895359218147AA00A0E67E = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2589537E2181491800A0E67E /* Alert.swift in Sources */,
+				2589536D218147D200A0E67E /* UIView.swift in Sources */,
+				258953732181484D00A0E67E /* UIImage.swift in Sources */,
+				2589536F218147F700A0E67E /* UIColor+Hex.swift in Sources */,
+				2589537B218148F100A0E67E /* UITextField.swift in Sources */,
+				258953712181481900A0E67E /* UIButton.swift in Sources */,
+				258953752181487D00A0E67E /* UINavigationBar.swift in Sources */,
+				258953772181489E00A0E67E /* UITabBar.swift in Sources */,
+				25895379218148BF00A0E67E /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +394,7 @@
 		25895366218147AA00A0E67E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.Coeur;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +421,7 @@
 		25895367218147AA00A0E67E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +447,7 @@
 		25895369218147AA00A0E67E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T4P9D4TB2;
 				INFOPLIST_FILE = CoeurTests/Info.plist;
@@ -409,6 +466,7 @@
 		2589536A218147AA00A0E67E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T4P9D4TB2;
 				INFOPLIST_FILE = CoeurTests/Info.plist;
