@@ -1,3 +1,3 @@
-# Coeur
+# Standard
 
-Coeur is a boilerplate collection that remove repeatable boilerplate code.
+Standard is a boilerplate collection that remove repeatable boilerplate code.
