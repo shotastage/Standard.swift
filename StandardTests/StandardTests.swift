@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Coeur
+@testable import Standard
 
-class CoeurTests: XCTestCase {
+class StandardTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,6 +22,10 @@ class CoeurTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testDebuggableLog() {
+        Debuggable.log("This is an data ", nil, 0.0, 1, [1, 2, 3])
     }
 
     func testPerformanceExample() {
