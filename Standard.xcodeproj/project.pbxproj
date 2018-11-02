@@ -20,6 +20,8 @@
 		2589537B218148F100A0E67E /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537A218148F100A0E67E /* UITextField.swift */; };
 		2589537E2181491800A0E67E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537D2181491800A0E67E /* Alert.swift */; };
 		2589538121814B5200A0E67E /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589538021814B5200A0E67E /* Debuggable.swift */; };
+		25C9974D218C599E00AD565F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974C218C599E00AD565F /* Logger.swift */; };
+		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2589537A218148F100A0E67E /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		2589537D2181491800A0E67E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		2589538021814B5200A0E67E /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
+		25C9974C218C599E00AD565F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		25895353218147AA00A0E67E /* Standard */ = {
 			isa = PBXGroup;
 			children = (
+				25C9974A218C592B00AD565F /* Zip */,
 				2589537F21814B4100A0E67E /* Debuggable */,
 				2589537C2181490D00A0E67E /* Alert */,
 				2589536B218147B500A0E67E /* Boilerplate */,
@@ -136,8 +141,25 @@
 			isa = PBXGroup;
 			children = (
 				2589538021814B5200A0E67E /* Debuggable.swift */,
+				25C9974C218C599E00AD565F /* Logger.swift */,
+				25C9974E218C59CC00AD565F /* DebugDialog.swift */,
 			);
 			path = Debuggable;
+			sourceTree = "<group>";
+		};
+		25C9974A218C592B00AD565F /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				25C9974B218C593200AD565F /* minizip */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		25C9974B218C593200AD565F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +274,9 @@
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
 				2589536D218147D200A0E67E /* UIView.swift in Sources */,
 				258953732181484D00A0E67E /* UIImage.swift in Sources */,
+				25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */,
 				2589536F218147F700A0E67E /* UIColor+Hex.swift in Sources */,
+				25C9974D218C599E00AD565F /* Logger.swift in Sources */,
 				2589537B218148F100A0E67E /* UITextField.swift in Sources */,
 				2589538121814B5200A0E67E /* Debuggable.swift in Sources */,
 				258953712181481900A0E67E /* UIButton.swift in Sources */,
