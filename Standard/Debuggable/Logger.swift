@@ -11,31 +11,9 @@ import Foundation
 
 extension Debuggable {
 
-    public static func log(_ messages: Any?...) {
+    public static func log(_ msg: Any?, f: String = #function, line: Int = #line) {
         
-        #if DEBUG
-        
-        var messageStack: [String] = []
-        
-        for msg in messages {
-            
-            if msg is String {
-                messageStack.append(msg as! String)
-            }
-            
-            if msg is Int {
-                messageStack.append(String(describing: msg as! Int))
-            }
-            
-            if msg is Double {
-                messageStack.append(String(describing: msg as! Double))
-            }
-            
-            messageStack.append(String(describing: msg))
-        }
-        
-        print("Debuggable Log: ", messageStack.joined())
-        
+        #if DEBUG        
         #endif
     }
 }

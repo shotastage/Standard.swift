@@ -17,7 +17,5 @@ extension Debuggable {
 
     // MARK: This method will be deprecated on next version.
     @available(*, unavailable, renamed: "showDebugWarningDialog")
-    public static func raiseDebugWarning() {
-        Alert.confirm(message: "Not Implemented!")
-    }
+    public static func raiseDebugWarning() { }
 }
