@@ -23,6 +23,7 @@
 		25C9974D218C599E00AD565F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974C218C599E00AD565F /* Logger.swift */; };
 		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
 		25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* StoredProperties.swift */; };
+		25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDD219AA3E500687C37 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		25C9974C218C599E00AD565F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
 		25F1EFDB219A9DD600687C37 /* StoredProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperties.swift; sourceTree = "<group>"; };
+		25F1EFDD219AA3E500687C37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				258953762181489E00A0E67E /* UITabBar.swift */,
 				25895378218148BF00A0E67E /* UITableView.swift */,
 				2589537A218148F100A0E67E /* UITextField.swift */,
+				25F1EFDD219AA3E500687C37 /* UIViewController.swift */,
 			);
 			path = Boilerplate;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */,
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
 				2589536D218147D200A0E67E /* UIView.swift in Sources */,
 				258953732181484D00A0E67E /* UIImage.swift in Sources */,
