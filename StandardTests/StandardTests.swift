@@ -24,8 +24,11 @@ class StandardTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testDebuggableLog() {
-        Debuggable.log("This is an data ", nil, 0.0, 1, [1, 2, 3])
+    func testAlert() {
+        
+        Alert
+            .title("Title")
+            .show()
     }
 
     func testPerformanceExample() {
