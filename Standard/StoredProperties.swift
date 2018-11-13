@@ -13,6 +13,6 @@ import UIKit
 
 @available(iOS 11.0, *)
 public struct SafeArea {
-    let top: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.top
-    let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
+    public let top: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.top
+    public let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
 }
