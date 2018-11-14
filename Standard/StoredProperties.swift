@@ -15,16 +15,12 @@ import UIKit
 public struct SafeArea {
     public static let top: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.top
     public static let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
+    public static let right: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.right
+    public static let left: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.left
 }
 
 
-open class ScreenSize {
-    
-    public static var width: CGFloat!
-    public static var height: CGFloat!
-    
-    init(view: UIView) {
-        ScreenSize.width = view.bounds.size.width
-        ScreenSize.height = view.bounds.size.height
-    }
+public struct ScreenSize {
+    public static let width: CGFloat = UIScreen.main.bounds.size.width
+    public static let height: CGFloat = UIScreen.main.bounds.size.height
 }
