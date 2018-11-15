@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */; };
 		2589535B218147AA00A0E67E /* Standard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25895351218147AA00A0E67E /* Standard.framework */; };
 		25895360218147AA00A0E67E /* StandardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589535F218147AA00A0E67E /* StandardTests.swift */; };
 		25895362218147AA00A0E67E /* Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 25895354218147AA00A0E67E /* Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaConsideringSize.swift; sourceTree = "<group>"; };
 		25895351218147AA00A0E67E /* Standard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Standard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25895354218147AA00A0E67E /* Standard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Standard.h; sourceTree = "<group>"; };
 		25895355218147AA00A0E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25570DC6219D77140046800E /* Size Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */,
+			);
+			path = "Size Classes";
+			sourceTree = "<group>";
+		};
 		25895347218147AA00A0E67E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		25895353218147AA00A0E67E /* Standard */ = {
 			isa = PBXGroup;
 			children = (
+				25570DC6219D77140046800E /* Size Classes */,
 				25C9974A218C592B00AD565F /* Zip */,
 				2589537F21814B4100A0E67E /* Debuggable */,
 				2589537C2181490D00A0E67E /* Alert */,
@@ -278,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */,
+				25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */,
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
 				2589536D218147D200A0E67E /* UIView.swift in Sources */,
 				258953732181484D00A0E67E /* UIImage.swift in Sources */,

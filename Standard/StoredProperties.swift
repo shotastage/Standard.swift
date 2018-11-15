@@ -13,11 +13,19 @@ import UIKit
 
 @available(iOS 11.0, *)
 public struct SafeArea {
-    public static let top: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.top
-    public static let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
-    public static let right: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.right
-    public static let left: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.left
     
+    
+    /// top returns safearea top height
+    public static let top: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.top
+    
+    /// bottom returns safearea bottom height
+    public static let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
+    
+    /// right returns safearea right width
+    public static let right: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.right
+    
+    /// left returns safearea left width
+    public static let left: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.left
     
     
     /// available returns if running iPhone having a safe area.
