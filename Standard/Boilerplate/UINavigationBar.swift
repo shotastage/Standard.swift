@@ -9,7 +9,6 @@
 import UIKit
 
 
-@IBDesignable
 open class NavigationBarView: UINavigationBar {
     
     public override init(frame: CGRect) {
