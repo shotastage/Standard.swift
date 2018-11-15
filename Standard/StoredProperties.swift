@@ -17,6 +17,19 @@ public struct SafeArea {
     public static let bottom: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.bottom
     public static let right: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.right
     public static let left: CGFloat = UIApplication.shared.windows[0].safeAreaInsets.left
+    
+    
+    
+    /// available returns if running iPhone having a safe area.
+    public static var available: Bool {
+        get {
+            if SafeArea.bottom != 0 {
+                return true
+            } else {
+                return false
+            }
+        }
+    }
 }
 
 
