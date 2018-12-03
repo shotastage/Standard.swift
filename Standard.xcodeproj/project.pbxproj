@@ -25,6 +25,7 @@
 		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
 		25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* StoredProperties.swift */; };
 		25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDD219AA3E500687C37 /* UIViewController.swift */; };
+		25FAEDDC21B17DA300261FBB /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAEDDB21B17DA300261FBB /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
 		25F1EFDB219A9DD600687C37 /* StoredProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperties.swift; sourceTree = "<group>"; };
 		25F1EFDD219AA3E500687C37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		25FAEDDB21B17DA300261FBB /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252A99C821B5873500D28D84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25570DC6219D77140046800E /* Size Classes */,
+				25FAEDDA21B17D8F00261FBB /* Toast */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		25570DC6219D77140046800E /* Size Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +120,7 @@
 		25895353218147AA00A0E67E /* Standard */ = {
 			isa = PBXGroup;
 			children = (
-				25570DC6219D77140046800E /* Size Classes */,
+				252A99C821B5873500D28D84 /* Views */,
 				25C9974A218C592B00AD565F /* Zip */,
 				2589537F21814B4100A0E67E /* Debuggable */,
 				2589537C2181490D00A0E67E /* Alert */,
@@ -177,6 +188,14 @@
 			children = (
 			);
 			path = minizip;
+			sourceTree = "<group>";
+		};
+		25FAEDDA21B17D8F00261FBB /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				25FAEDDB21B17DA300261FBB /* ToastView.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */,
+				25FAEDDC21B17DA300261FBB /* ToastView.swift in Sources */,
 				25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */,
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
 				2589536D218147D200A0E67E /* UIView.swift in Sources */,

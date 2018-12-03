@@ -26,5 +26,7 @@ open class NavigationBarView: UINavigationBar {
         compose()
     }
     
+    
+    
     open func compose() { }
 }
