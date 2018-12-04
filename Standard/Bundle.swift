@@ -11,7 +11,7 @@ import Foundation
 
 open class StdBundle {
     
-    public static var identifier: String {
+    public var identifier: String {
         get {
             return String(describing: Bundle.main.bundleIdentifier)
         }
