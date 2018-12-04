@@ -11,9 +11,9 @@ import Foundation
 
 open class Standard {
     
-    static let shared = Standard()
+    public static let shared = Standard()
     
-    static let bundle = StdBundle()
+    public static let bundle = StdBundle()
     
     private init() { }
     
