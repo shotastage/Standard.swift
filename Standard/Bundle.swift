@@ -13,7 +13,7 @@ open class StdBundle {
     
     public var identifier: String {
         get {
-            return String(describing: Bundle.main.bundleIdentifier)
+            return String(describing: Bundle.main.bundleIdentifier!)
         }
     }
 }
