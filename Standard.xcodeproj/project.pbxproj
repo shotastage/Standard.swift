@@ -21,6 +21,8 @@
 		2589537B218148F100A0E67E /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537A218148F100A0E67E /* UITextField.swift */; };
 		2589537E2181491800A0E67E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589537D2181491800A0E67E /* Alert.swift */; };
 		2589538121814B5200A0E67E /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589538021814B5200A0E67E /* Debuggable.swift */; };
+		25C418B121B6E5F300F5D860 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C418B021B6E5F300F5D860 /* Bundle.swift */; };
+		25C418B321B6E60800F5D860 /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C418B221B6E60800F5D860 /* Standard.swift */; };
 		25C9974D218C599E00AD565F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974C218C599E00AD565F /* Logger.swift */; };
 		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
 		25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* StoredProperties.swift */; };
@@ -56,6 +58,8 @@
 		2589537A218148F100A0E67E /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		2589537D2181491800A0E67E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		2589538021814B5200A0E67E /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
+		25C418B021B6E5F300F5D860 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		25C418B221B6E60800F5D860 /* Standard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
 		25C9974C218C599E00AD565F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
 		25F1EFDB219A9DD600687C37 /* StoredProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperties.swift; sourceTree = "<group>"; };
@@ -121,13 +125,14 @@
 			isa = PBXGroup;
 			children = (
 				252A99C821B5873500D28D84 /* Views */,
-				25C9974A218C592B00AD565F /* Zip */,
 				2589537F21814B4100A0E67E /* Debuggable */,
 				2589537C2181490D00A0E67E /* Alert */,
 				2589536B218147B500A0E67E /* Boilerplate */,
 				25895354218147AA00A0E67E /* Standard.h */,
 				25895355218147AA00A0E67E /* Info.plist */,
 				25F1EFDB219A9DD600687C37 /* StoredProperties.swift */,
+				25C418B021B6E5F300F5D860 /* Bundle.swift */,
+				25C418B221B6E60800F5D860 /* Standard.swift */,
 			);
 			path = Standard;
 			sourceTree = "<group>";
@@ -173,21 +178,6 @@
 				25C9974E218C59CC00AD565F /* DebugDialog.swift */,
 			);
 			path = Debuggable;
-			sourceTree = "<group>";
-		};
-		25C9974A218C592B00AD565F /* Zip */ = {
-			isa = PBXGroup;
-			children = (
-				25C9974B218C593200AD565F /* minizip */,
-			);
-			path = Zip;
-			sourceTree = "<group>";
-		};
-		25C9974B218C593200AD565F /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 		25FAEDDA21B17D8F00261FBB /* Toast */ = {
@@ -308,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */,
+				25C418B121B6E5F300F5D860 /* Bundle.swift in Sources */,
 				25FAEDDC21B17DA300261FBB /* ToastView.swift in Sources */,
 				25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */,
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
@@ -316,6 +307,7 @@
 				25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */,
 				2589536F218147F700A0E67E /* UIColor+Hex.swift in Sources */,
 				25C9974D218C599E00AD565F /* Logger.swift in Sources */,
+				25C418B321B6E60800F5D860 /* Standard.swift in Sources */,
 				2589537B218148F100A0E67E /* UITextField.swift in Sources */,
 				25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */,
 				2589538121814B5200A0E67E /* Debuggable.swift in Sources */,
