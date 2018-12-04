@@ -25,7 +25,7 @@
 		25C418B321B6E60800F5D860 /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C418B221B6E60800F5D860 /* Standard.swift */; };
 		25C9974D218C599E00AD565F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974C218C599E00AD565F /* Logger.swift */; };
 		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
-		25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* StoredProperties.swift */; };
+		25F1EFDC219A9DD600687C37 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* Screen.swift */; };
 		25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDD219AA3E500687C37 /* UIViewController.swift */; };
 		25FAEDDC21B17DA300261FBB /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAEDDB21B17DA300261FBB /* ToastView.swift */; };
 /* End PBXBuildFile section */
@@ -62,7 +62,7 @@
 		25C418B221B6E60800F5D860 /* Standard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
 		25C9974C218C599E00AD565F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
-		25F1EFDB219A9DD600687C37 /* StoredProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperties.swift; sourceTree = "<group>"; };
+		25F1EFDB219A9DD600687C37 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		25F1EFDD219AA3E500687C37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		25FAEDDB21B17DA300261FBB /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +130,7 @@
 				2589536B218147B500A0E67E /* Boilerplate */,
 				25895354218147AA00A0E67E /* Standard.h */,
 				25895355218147AA00A0E67E /* Info.plist */,
-				25F1EFDB219A9DD600687C37 /* StoredProperties.swift */,
+				25F1EFDB219A9DD600687C37 /* Screen.swift */,
 				25C418B021B6E5F300F5D860 /* Bundle.swift */,
 				25C418B221B6E60800F5D860 /* Standard.swift */,
 			);
@@ -309,7 +309,7 @@
 				25C9974D218C599E00AD565F /* Logger.swift in Sources */,
 				25C418B321B6E60800F5D860 /* Standard.swift in Sources */,
 				2589537B218148F100A0E67E /* UITextField.swift in Sources */,
-				25F1EFDC219A9DD600687C37 /* StoredProperties.swift in Sources */,
+				25F1EFDC219A9DD600687C37 /* Screen.swift in Sources */,
 				2589538121814B5200A0E67E /* Debuggable.swift in Sources */,
 				258953712181481900A0E67E /* UIButton.swift in Sources */,
 				258953752181487D00A0E67E /* UINavigationBar.swift in Sources */,
