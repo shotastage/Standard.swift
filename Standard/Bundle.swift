@@ -16,4 +16,18 @@ open class StdBundle {
             return String(describing: Bundle.main.bundleIdentifier!)
         }
     }
+    
+    
+    public var version: String {
+        get {
+            return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+        }
+    }
+    
+    
+    public var build: String {
+        get {
+            return Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String
+        }
+    }
 }
