@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */; };
+		2555488E21F4DB3300FF963D /* UIView+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555488D21F4DB3300FF963D /* UIView+Size.swift */; };
 		2589535B218147AA00A0E67E /* Standard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25895351218147AA00A0E67E /* Standard.framework */; };
 		25895360218147AA00A0E67E /* StandardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2589535F218147AA00A0E67E /* StandardTests.swift */; };
 		25895362218147AA00A0E67E /* Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 25895354218147AA00A0E67E /* Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +26,6 @@
 		25C9974D218C599E00AD565F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974C218C599E00AD565F /* Logger.swift */; };
 		25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9974E218C59CC00AD565F /* DebugDialog.swift */; };
 		25F1EFDC219A9DD600687C37 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDB219A9DD600687C37 /* Screen.swift */; };
-		25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1EFDD219AA3E500687C37 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaConsideringSize.swift; sourceTree = "<group>"; };
+		2555488D21F4DB3300FF963D /* UIView+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Size.swift"; sourceTree = "<group>"; };
 		25895351218147AA00A0E67E /* Standard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Standard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25895354218147AA00A0E67E /* Standard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Standard.h; sourceTree = "<group>"; };
 		25895355218147AA00A0E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 		25C9974C218C599E00AD565F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		25C9974E218C59CC00AD565F /* DebugDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDialog.swift; sourceTree = "<group>"; };
 		25F1EFDB219A9DD600687C37 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
-		25F1EFDD219AA3E500687C37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +85,17 @@
 		252A99C821B5873500D28D84 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				25570DC6219D77140046800E /* Size Classes */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		25570DC6219D77140046800E /* Size Classes */ = {
+		2555488C21F4DB2700FF963D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				25570DC7219D77480046800E /* SafeAreaConsideringSize.swift */,
+				2589536E218147F700A0E67E /* UIColor+Hex.swift */,
+				2555488D21F4DB3300FF963D /* UIView+Size.swift */,
 			);
-			path = "Size Classes";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		25895347218147AA00A0E67E = {
@@ -121,6 +119,7 @@
 		25895353218147AA00A0E67E /* Standard */ = {
 			isa = PBXGroup;
 			children = (
+				2555488C21F4DB2700FF963D /* Extensions */,
 				252A99C821B5873500D28D84 /* Views */,
 				2589537F21814B4100A0E67E /* Debuggable */,
 				2589537C2181490D00A0E67E /* Alert */,
@@ -147,14 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				2589536C218147D200A0E67E /* UIView.swift */,
-				2589536E218147F700A0E67E /* UIColor+Hex.swift */,
 				258953702181481900A0E67E /* UIButton.swift */,
 				258953722181484D00A0E67E /* UIImage.swift */,
 				258953742181487D00A0E67E /* UINavigationBar.swift */,
 				258953762181489E00A0E67E /* UITabBar.swift */,
 				25895378218148BF00A0E67E /* UITableView.swift */,
 				2589537A218148F100A0E67E /* UITextField.swift */,
-				25F1EFDD219AA3E500687C37 /* UIViewController.swift */,
 			);
 			path = Boilerplate;
 			sourceTree = "<group>";
@@ -286,11 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F1EFDE219AA3E500687C37 /* UIViewController.swift in Sources */,
 				25C418B121B6E5F300F5D860 /* Bundle.swift in Sources */,
-				25570DC8219D77480046800E /* SafeAreaConsideringSize.swift in Sources */,
 				2589537E2181491800A0E67E /* Alert.swift in Sources */,
 				2589536D218147D200A0E67E /* UIView.swift in Sources */,
+				2555488E21F4DB3300FF963D /* UIView+Size.swift in Sources */,
 				258953732181484D00A0E67E /* UIImage.swift in Sources */,
 				25C9974F218C59CC00AD565F /* DebugDialog.swift in Sources */,
 				2589536F218147F700A0E67E /* UIColor+Hex.swift in Sources */,

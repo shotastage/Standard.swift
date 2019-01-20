@@ -15,6 +15,8 @@ open class Standard {
     
     public static let bundle = StdBundle()
     
+    public static let screen = StdScreen()
+    
     private init() { }
     
     
